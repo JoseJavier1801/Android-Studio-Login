@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Iniciar Sesion</string>
+    <string name="username">Introduzca Usuario</string>
+    <string name="Password">Introduzca Contraseña</string>
+
+    <string name="loginbutton">Iniciar Sesion</string>
+    <string name="registerbutton">Registrarse</string>
+
+    <string name="exitbutton">Atras</string>
+    <string name="welcome">Bienvenido!</string>
+
+    <string name="register">Registrarse</string>
+
+    <string name="tranaslatebutton">Traducir al Ingles</string>
+
+    <string name="welcome_to_registration">Bienvenido al registro</string>
+    <string name="registration_successful">Registro exitoso</string>
+    <string name="welcome_to_home">Bienvenido</string>
+    <string name="registration_error">Error, campos vacios</string>
+
+</resources>

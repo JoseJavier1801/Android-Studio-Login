@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="username">Insert Username</string>
+    <string name="Password">Insert Password</string>
+
+    <string name="loginbutton">LOGIN</string>
+    <string name="registerbutton">Register</string>
+
+    <string name="exitbutton">Return</string>
+    <string name="welcome">Welcome!</string>
+
+    <string name="register">Register</string>
+
+    <string name="tranaslatebutton">Translate to SP</string>
+    <string name="welcome_to_registration">Welcome to Register</string>
+    <string name="welcome_to_home">Welcome!</string>
+    <string name="registration_successful">Register user succeded</string>
+    <string name="registration_error">Error, empty user or password</string>
+
+</resources>

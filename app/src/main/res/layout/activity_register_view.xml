@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFC107"
+    tools:context=".RegisterView">
+
+    <EditText
+        android:id="@+id/editTextRegisterUsername"
+        android:layout_width="378dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="124dp"
+        android:hint="@string/username"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextRegisterPassword"
+        android:layout_width="378dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="76dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegisterUsername" />
+
+    <Button
+        android:id="@+id/buttonRegisterUser"
+        android:layout_width="272dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="84dp"
+        android:text="Registrarse"
+        android:onClick="onRegisterUserClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegisterPassword" />
+
+    <Button
+        android:id="@+id/buttonBackToLogin"
+        android:layout_width="267dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:onClick="ATRAS"
+        android:text="@string/exitbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegisterUser"
+        app:layout_constraintVertical_bias="0.259" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
